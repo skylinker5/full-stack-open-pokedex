@@ -34,12 +34,10 @@ module.exports = {
       "unix"
     ],
     "quotes": [
-      "error",
-      "double"
+      "off"
     ],
     "semi": [
-      "error",
-      "always"
+      "off",
     ],
     "eqeqeq": "error",
     "no-trailing-spaces": "error",
