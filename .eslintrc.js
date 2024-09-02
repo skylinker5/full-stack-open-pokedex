@@ -47,7 +47,7 @@ module.exports = {
     "arrow-spacing": [
       "error", { "before": true, "after": true }
     ],
-    "no-console": "error",
+    "no-console": process.env.NODE_ENV === 'production' ? "error" : "off",
     "react/prop-types": 0
   }
 }
