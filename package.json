@@ -11,8 +11,7 @@
     "test:report": "playwright show-report",
     "eslint": "eslint './**/*.{js,jsx}'",
     "build": "webpack --mode production",
-    "build:ui": "rm -rf dist && npm run build",
-    "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push"
+    "build:ui": "npm install -D webpack-cli && npm run build"
   },
   "repository": {
     "type": "git",
